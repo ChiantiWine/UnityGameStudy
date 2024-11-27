@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class Doriver : MonoBehaviour
 {
-    
+    float steerSpeed = 0.1f;
+    float moveSpeed = 0.01f;
+
     void Start()
     {
         
@@ -13,7 +15,7 @@ public class Doriver : MonoBehaviour
    
     void Update()
     {
-        // transform.Rotate(0, 0, 0.1f);
-        transform.Translate(0, 0.1f, 0);
+        transform.Rotate(0, 0, steerSpeed);
+        transform.Translate(0, moveSpeed, 0);
     }
 }
