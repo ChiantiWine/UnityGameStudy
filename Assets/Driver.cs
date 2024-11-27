@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Doriver : MonoBehaviour
 {
-    float steerSpeed = 0.1f;
-    float moveSpeed = 0.01f;
+    [SerializeField]float steerSpeed = 0.1f;
+    [SerializeField]float moveSpeed = 0.01f;
 
     void Start()
     {
