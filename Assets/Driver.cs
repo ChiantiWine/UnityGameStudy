@@ -7,11 +7,13 @@ public class Doriver : MonoBehaviour
     {
         
         // transform.Rotate(Vector3.forward, Space.Self);
+        
     }
 
    
     void Update()
     {
-        transform.Rotate(0, 0, 45);
+        // transform.Rotate(0, 0, 0.1f);
+        transform.Translate(0, 0.1f, 0);
     }
 }
